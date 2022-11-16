@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+header {
+    width: 100%; 
+    height: 100px; 
+    background: #69a3de;
+}
+#logo-img{
+    height: 100px;
+    width: 100px;
+}
+.background {
+    display: flex; 
+    align-items: center; 
+    width: 1200px; 
+    height: 100px; 
+    margin: 0 auto;
+}
+
+nav > ul {
+    display: flex; 
+    width: 600px; 
+    margin-left: 320px;
+}
+
+nav a {
+    display: block; 
+    text-align: center; 
+    background: #69a3de; 
+    padding:10px;
+}
+
+.mainMenu {
+    position:relative; 
+    width: 25%;
+}
+
+.mainMenu > a {
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+.subMenu {
+    position:absolute; 
+    width: 100%; 
+    z-index: 998; 
+    display: none;
+}
+
+.mainMenu:hover > a {
+    color:#fff; 
+    background: rgb(74, 72, 72);
+}
+
+.subMenu li:hover a {
+    color:#fff; 
+    background: rgb(74, 72, 72);
+}
+
+/* 메인 슬라이드 css */
+.slide {
+    width: 1988px; 
+    height: 850px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide > img {
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+.slide > img:first-child {
+    left: 0;
+}
+
+/* 푸터 css입니다 */
+
+footer {
+    width: 100%; 
+    height: 120px; 
+       background: rgb(150, 148, 148);
+}
+
+.footerLogo {
+    width: 200px; 
+    height: 40px; 
+    font-size: 0px; 
+    color:transparent;
+}
+
+.logo-img2{
+    height: 100px;
+    width: 100px;
+    margin-top: -22px;
+}
+
+footer p {
+    width: 70%; 
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.sns { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 10%;
+}
+
+.sns a {
+    display: inline-block; 
+    width: 24%;
+}
+
+.sns li img {
+    width: 300%;
+}
+
